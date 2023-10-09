@@ -101,7 +101,7 @@ void tictactoe2()
         cout << "There is no empty space!" << endl;
         tictactoe2();
     }
-    // tictactoe1();
+    tictactoe1();
 }
 bool tictactoe3()
 {
@@ -138,7 +138,7 @@ int main()
     SetConsoleCP(437);
     SetConsoleOutputCP(437);
     int bar1 = 177, bar2 = 219;
-    cout << "\n\n\n\t\t\t  Loading...  ";
+    cout << "\n\n\n\t\t\t  MLoading...  ";
     cout << "\n\n\n\t\t\t\t";
 
     for (int i = 0; i < 25; i++)
